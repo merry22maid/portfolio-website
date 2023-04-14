@@ -308,7 +308,20 @@ canvas {
       align-self: center;
       margin-bottom: 20px;
     }
+    
+    #footer-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+  .footer-part {
+      width: 80%;
+    }
   }
+
+
+
 
   @media all and (max-width: 500px) {
     #top-menu {
@@ -324,7 +337,5 @@ canvas {
       font-size: 17px;
     }
 
-    .footer-part {
-      width: 80%;
-    }
+    
   }
